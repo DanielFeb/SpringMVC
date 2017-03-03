@@ -21,8 +21,15 @@
     	<artifactId>spring-webmvc</artifactId>
     	<version>4.3.6.RELEASE</version>
     </dependency>
+    
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
+    </dependency>
   </dependencies>
   
+
   <build>
     <finalName>Demo-MVC</finalName>
   </build>

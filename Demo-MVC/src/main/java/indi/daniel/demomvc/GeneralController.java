@@ -11,12 +11,12 @@ public class GeneralController {
     public String home(Model model){  
         model.addAttribute("hello", "Hello world!");  
         System.out.println("index");  
-        return "index.jsp";
+        return "index";
     }  
     
     @RequestMapping(value = "/")  
     public String console(){ 
-       System.out.println("lalala");  
-       return "index.jsp";
+       System.out.println("/");  
+       return "index";
    }  
 }  
